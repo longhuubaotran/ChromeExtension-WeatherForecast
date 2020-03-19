@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Date and gmail link -->
+    <div class="header-section">
+      <div class="date">
+        <p class="current-date"></p>
+        <p class="current-time"></p>
+      </div>
+      <div class="google"></div>
+    </div>
+
+    <!-- // Main Section -->
+    <div class="main">
+      <div class="sun"></div>
+      <div class="weather-card">
+        <h3 class="place">Getting data...</h3>
+        <img src="./images/cloudy.png" class="weather-img" alt="" />
+        <h4 class="temp"></h4>
+        <hr class="white-line" />
+        <div class="temp-additional">
+          <p class="feel-like"></p>
+          <p class="temp-range"></p>
+        </div>
+      </div>
+      <div class="sun"></div>
+      <img src="./forest.svg" class="background-img" alt="" />
+    </div>
+
+    <!-- Weather animation -->
+    <!-- Rain -->
+    <div class="rain">
+      <div class="layer-1">
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+      </div>
+
+      <div class="layer-2">
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+        <div class="rain-drop"></div>
+      </div>
+    </div>
+    <!-- End of Rain effect -->
+
+    <!-- Snow -->
+    <div class="snowflakes" aria-hidden="true">
+      <div class="snowflake">❅</div>
+      <div class="snowflake">❆</div>
+      <div class="snowflake">❅</div>
+      <div class="snowflake">❆</div>
+      <div class="snowflake">❅</div>
+      <div class="snowflake">❆</div>
+      <div class="snowflake">❅</div>
+      <div class="snowflake">❆</div>
+      <div class="snowflake">❅</div>
+      <div class="snowflake">❆</div>
+      <div class="snowflake">❅</div>
+      <div class="snowflake">❆</div>
+    </div>
+    <!-- End Of Snow effect -->
+
+    <!-- Windy -->
+    <div class="windy" aria-hidden="true">
+      <div class="leaf">🍃</div>
+      <div class="leaf">🍀</div>
+      <div class="leaf">🍃</div>
+      <div class="leaf">🌿</div>
+      <div class="leaf">🍃</div>
+      <div class="leaf">🍀</div>
+      <div class="leaf">🍃</div>
+      <div class="leaf">🌿</div>
+      <div class="leaf">🌿</div>
+      <div class="leaf">🍀</div>
+    </div>
+    <!-- End of Windy -->
+    <script src="./app.js"></script>
+  </body>
+</html>
